@@ -19,7 +19,7 @@ export default function ProductDetails() {
   //Link ile ana sayfaya geri dönüyoruz.
   return (
     <div>
-      <Link to="/">Back home</Link>
+      <Link to="/" style={{ color: 'green', textDecoration: "none", fontSize: "18px" }}>Back home</Link>
       {loading ? (<Loader/>) : 
       (product && (
         <div>
